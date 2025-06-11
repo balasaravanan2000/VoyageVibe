@@ -4,6 +4,7 @@ import { Clock, Users, Star, Camera, Mountain, Utensils } from 'lucide-react';
 const FeaturedTours = () => {
   const tours = [
     {
+      
       id: 1,
       title: 'European Grand Tour',
       image: 'https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=800',
