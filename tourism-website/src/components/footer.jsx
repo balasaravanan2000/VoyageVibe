@@ -15,6 +15,8 @@ const Footer = () => {
             <p className="text-gray-300 mb-6 leading-relaxed">
               Your trusted travel partner for unforgettable adventures around the world. 
               We create memories that last a lifetime.
+
+              
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors duration-200">
