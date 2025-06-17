@@ -102,4 +102,4 @@ const Hero = ({ searchQuery, setSearchQuery }) => {
   );
 };
 
-export default Hero;
+ export default Hero;
