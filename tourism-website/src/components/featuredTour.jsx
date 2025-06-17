@@ -3,7 +3,27 @@ import { Clock, Users, Star, Camera, Mountain, Utensils } from 'lucide-react';
 
 const FeaturedTours = () => {
   const tours = [
-   
+    {
+      
+      id: 1,
+      title: 'European Grand Tour',
+      image: 'https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=800',
+      duration: '14 days',
+      maxGuests: 20,
+      rating: 4.9,
+      reviews: 156,
+      price: 2899,
+      originalPrice: 3299,
+      countries: ['France', 'Italy', 'Germany', 'Austria'],
+      highlights: [
+        'Visit 4 countries in 2 weeks',
+        'Expert local guides',
+        'Luxury accommodations',
+        'All meals included'
+      ],
+      includes: ['Transportation', 'Accommodation', 'Meals', 'Guide'],
+      discount: 12
+    },
     {
       id: 2,
       title: 'Southeast Asia Adventure',
